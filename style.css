@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    color:black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+      background-color:#f357ff;
+  }
+  tr:nth-child(even) {
+    background-color: #f9a8ff;
+  }
+  tr:nth-child(odd) {
+    background-color: #fcd4ff;
+  }
+  input[type=button] {
+    background-color: #f357ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .form-control:nth-child(even) {
+    background-color: #f9a8ff;
+  }
+  .form-control:nth-child(odd) {
+    background-color: #fcd4ff;
+  }
+  table .form-control.error {
+    border-color: #f50000;
+  }
+  table td #save {
+    display: none;
+  }
+  
